@@ -7,3 +7,6 @@ speech_cache.mp3
 .env
 remove_bg.py
 memory.db
+idle.gif
+talking.gif
+thinking.gif
