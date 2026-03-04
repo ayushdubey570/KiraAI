@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+io.py
+remove_bg.py
+response.mp3
+speech_cache.mp3
+.env
+remove_bg.py
+memory.db
