@@ -54,11 +54,13 @@ KiraAI/
 ├── run_kira.py           # Main entry point (Python wrapper)
 ├── run.sh                # Shell launcher (Activates venv & runs app)
 ├── Kira.desktop          # Linux Desktop Icon file(may or may not be visible)
-├── assets/               # GUI Animations and Wake Sounds
-│   ├── idle.gif
-│   ├── talking.gif
-│   ├── thinking.gif
-│   └── sounds/wake.wav
+├── assets/
+|   ├── sounds/           # Sound
+|   |   └──wake.wav              
+│   ├── idle.gif          # GUI Animations(add gifs)
+│   ├── talking.gif       # GUI Animations(add gifs)
+│   └──thinking.gif       # GUI Animations(add gifs)
+│   
 └── src/
     ├── __init__.py       # package manager
     ├── main.py           # The Core Loop (Listening, Routing, Emitting Signals)
